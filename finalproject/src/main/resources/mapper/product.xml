@@ -8,7 +8,7 @@
       select * from product order by id desc
    </select>
    
-   <select id="findOne" resultType="shop.mtcoding.finalproject.model.Product">
+   <select id="findById" resultType="shop.mtcoding.finalproject.model.Product">
       select * from product where id = #{id}
    </select>
 
