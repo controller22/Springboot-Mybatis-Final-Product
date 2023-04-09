@@ -17,6 +17,4 @@ public interface ProductRepository {
 
     public int update(@Param("id") int id, @Param("name") String name, @Param("price") int price,
             @Param("qty") int qty);
-
-    public Product findByName(String productname);
 }
