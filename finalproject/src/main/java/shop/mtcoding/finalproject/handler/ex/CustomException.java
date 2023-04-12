@@ -1,4 +1,5 @@
-package shop.mtcoding.finalproject.hanlder.exception;
+package shop.mtcoding.finalproject.handler.ex;
+
 
 import org.springframework.http.HttpStatus;
 
